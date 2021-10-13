@@ -1,0 +1,51 @@
+@import '~styles/helpers/_module';
+
+:host {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.shopping-cart-icon {
+  &__badge {
+    $size: 17px;
+    position: absolute;
+    right: -6px;
+    background-color: #005cc4;
+    border-radius: 50%;
+    @include font-size(12);
+    height: $size;
+    line-height: 16px;
+    text-align: center;
+    width: $size;
+    top: 4px;
+
+    &-count {
+      color: white;
+      font-weight: 100;
+      user-select: none;
+      vertical-align: middle;
+    }
+  }
+
+  &__cart-icon {
+    height: 26px !important;
+    width: 26px !important;
+    display: flex;
+    padding-left: 5px;
+
+    &-image {
+      $image-size: 24px;
+      height: $image-size;
+      width: auto;
+    }
+  }
+
+  &__label {
+    color: white;
+  }
+}
+
+
+@import "~upscale-style-bikeshop/upscale-shopping-cart-icon/upscale-shopping-cart-icon.scss";
