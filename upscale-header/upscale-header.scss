@@ -62,7 +62,7 @@ $row-height: 125px !important;
       &.desktop {
         max-height: 100px !important;
       }
-      max-height: 26px;
+      max-height: 90px !important;
       @include clickable;
     }
   }
