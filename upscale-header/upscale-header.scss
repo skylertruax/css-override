@@ -3,9 +3,6 @@
 $row-height: 125px !important;
 
 :host {
-  .header__bottom {
-    display: none !important;
-  }
   position: sticky;
   top: 0;
   width: 100%;
