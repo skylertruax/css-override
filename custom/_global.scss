@@ -9,9 +9,35 @@ upscale-header {
   }
 }
 
-.shopping-cart-icon__cart-icon {
-  width: 15px !important;
-  .shopping-cart-icon__cart-icon-image {
-    width: 100% !important;
-  }
+#upscale .image-component-content-headline {
+  font-size: 36px;
+  line-height: 36px;
+  color: #fff !important;
+  font-family: Nunito;
+  font-weight: 700;
+}
+
+#upscale .image-component-content-subheadline {
+  font-size: 24px !important;
+  line-height: 26px;
+  color: #fff !important;
+  font-family: Nunito;
+  font-weight: 400;
+}
+
+
+
+#upscale .image-component-link-button {
+  color: #fff !important;
+  font-family: Nunito;
+  font-weight: 500;
+  border-radius: 0px !important;
+  border: none !important;
+  padding: 15px !important;
+  background-color: #fe7250 !important;
+}
+
+.search-bar__input {
+  background-color: #f5f5f5 !important;
+  color: #000 !important
 }

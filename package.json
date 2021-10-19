@@ -1,5 +1,31 @@
 {
-	"name": "upscale-style-bikeshop",
-	"version": "0.0.1",
-	"license": "MIT"
+  "_args": [
+    [
+      "git+https://github.com/skylertruax/css-override.git",
+      "/Users/portwolf/LiveArea/Sites/upscale-bikeshop/caas2-webapp"
+    ]
+  ],
+  "_from": "git+https://github.com/skylertruax/css-override.git",
+  "_id": "upscale-style-bikeshop@git+https://github.com/skylertruax/css-override.git#c6c6fba9808c13f01190e4902c86760d001712b1",
+  "_inBundle": false,
+  "_integrity": "",
+  "_location": "/upscale-style-bikeshop",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "git",
+    "raw": "git+https://github.com/skylertruax/css-override.git",
+    "rawSpec": "git+https://github.com/skylertruax/css-override.git",
+    "saveSpec": "git+https://github.com/skylertruax/css-override.git",
+    "fetchSpec": "https://github.com/skylertruax/css-override.git",
+    "gitCommittish": null
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "git+https://github.com/skylertruax/css-override.git#c6c6fba9808c13f01190e4902c86760d001712b1",
+  "_spec": "git+https://github.com/skylertruax/css-override.git",
+  "_where": "/Users/portwolf/LiveArea/Sites/upscale-bikeshop/caas2-webapp",
+  "license": "MIT",
+  "name": "upscale-style-bikeshop",
+  "version": "0.0.1"
 }
