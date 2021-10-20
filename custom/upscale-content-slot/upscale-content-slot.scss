@@ -264,3 +264,45 @@
     }
   }
 }
+
+//PDP custom info
+.pdpCustomInfo {
+  .col-4 {
+    padding: 15px;
+    width: 100%;
+    display: flex;
+    box-sizing: border-box;
+
+    @media (min-width: 768px) {
+      width: 33.33%;
+    }
+  }
+
+  h3 {
+    position: relative;
+
+    &:before {
+      content: "";
+      height: 1px;
+      width: 30px;
+      bottom: -7px;
+      left: 50%;
+      transform: translateX(-50%);
+      background: #000;
+      position: absolute;
+    }
+  }
+
+  .infoSec {
+    border: 1px solid #000;
+    background: #fff;
+    padding: 30px 10px;
+    text-align: center;
+  }
+
+  @media (max-width: 767px) {
+    .d-flex {
+      flex-direction: column;
+    }
+  }
+}
