@@ -252,10 +252,10 @@
     }
 
     iframe {
-      height: 3700px !important;      
+      height: 3700px !important;
 
-      @media (min-width: 769px) {
-        height: 1900px !important;
+      @media (min-width: 768px) {
+        height: 1950px !important;
       }
 
       @media (min-width: 993px) {
