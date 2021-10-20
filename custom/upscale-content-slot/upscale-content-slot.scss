@@ -243,7 +243,7 @@
 
 // BestSeller Section
 [data-aliases="HOME"] {
-  .component-fallback[data-component-type="CUSTOM"] {
+  .component-ready[data-component-type="CUSTOM"] {
     > .container-content {
       max-width: 100% !important;
       width: 100% !important;
