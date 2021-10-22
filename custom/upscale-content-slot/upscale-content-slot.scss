@@ -243,7 +243,7 @@
 
 // BestSeller Section
 [data-aliases="HOME"] {
-  .component-fallback[data-component-type="CUSTOM"] {
+  .component-ready[data-component-type="CUSTOM"] {
     > .container-content {
       max-width: 100% !important;
       width: 100% !important;
@@ -308,5 +308,39 @@
     .d-flex {
       flex-direction: column;
     }
+  }
+}
+
+//PDP page
+.configuration {
+  padding: 0 0 0 0 !important;
+  background: #fff !important;
+  background-color: #fff !important;
+}
+
+.product-detail-content {
+  margin-bottom: 0 !important;
+}
+
+.upscale-desktop .container-content {
+  max-width: 100% !important;
+  width: 100% !important;
+}
+
+@media (max-width: 575px) {
+  [data-templatetype="PRODUCT_DETAILS"] .component-ready iframe {
+    height: 720px !important;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 768px) {
+  [data-templatetype="PRODUCT_DETAILS"] .component-ready iframe {
+    height: 900px !important;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1080px) {
+  [data-templatetype="PRODUCT_DETAILS"] .component-ready iframe {
+    height: 670px !important;
   }
 }
