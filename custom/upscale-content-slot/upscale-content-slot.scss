@@ -1,3 +1,8 @@
+html,
+body {
+  background-color: #fff !important;
+}
+
 // Home Page Landing Css
 [data-aliases="HOME"] {
   [data-component-type="CAROUSEL"] + [data-component-type="CONTENT_SLOT"] {
@@ -343,4 +348,56 @@
   [data-templatetype="PRODUCT_DETAILS"] .component-ready iframe {
     height: 670px !important;
   }
+}
+
+//Cart Page
+.cartBanner {
+  background-image: url("//cdn.shopify.com/s/files/1/0579/0760/9755/files/bg_page.jpg");
+  background-size: cover;
+  background-position: center;
+  padding: 150px 0 130px;
+  text-align: center;
+
+  h2 {
+    font-size: 46px !important;
+    font-weight: 600 !important;
+    color: #010101;
+    margin: 0 0 20px !important;
+  }
+
+  .bread-crumb {
+    font-weight: 500 !important;
+  }
+
+  a {
+    text-decoration: none;
+    color: #000;
+    font-weight: 500 !important;
+    font-size: 14px !important;
+
+    &:hover {
+      color: #fe7250 !important;
+    }
+  }
+}
+
+.cart-empty__start-shopping-button {
+  background: #fe7250 !important;
+  border-radius: 0px !important;
+  padding: 20px 20px !important;
+  height: 60px !important;
+  transition: 0.3s;
+  &:hover {
+    transition: 0.3s;
+    background: #000 !important;
+  }
+}
+
+.cart-empty,
+.cart-notification-wrapper {
+  background: #fff !important;
+}
+
+.cart-empty {
+  margin-bottom: 200px !important;
 }
